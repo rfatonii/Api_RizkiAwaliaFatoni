@@ -1,0 +1,93 @@
+  // async function myFunction(){
+  //   const response = await
+  //   fetch('https://api.edamam.com/api/food-database/v2/parser', {
+  //   method : "GET"
+  // });
+  //   console.log(response);
+  //   const json = await response.json();
+  //   console.log(json);
+  
+  //   const result = json.results;
+  //   let data = ''
+  //   for(i = 0; i < result.length; i++){
+  //     data = data +  `<p>${result[i].name}</p>`
+  //   }
+  //   document.getElementById("tempat").innerHTML = data;
+  // }
+  
+  // async function myFunction() {
+  //     let result = await
+  //     fetch('https://fakestoreapi.com/carts?sort=desc')
+  //             .then(res=>res.json())
+  //             .then(json=>console.log(json[3].id));
+  // }
+  
+  // async function myFunction() { 
+  //     let result = await
+  //     fetch('https://api.edamam.com/api/food-database/v2/parser')
+  // 	.then(response => response.json())
+  // 	.then(response => console.log(response))
+  // 	.catch(err => console.error(err));
+  // }
+  
+  
+  //API yg fix
+  // async function myFunction() {
+  //     let result = await
+  //     fetch('https://fakestoreapi.com/products?sort=desc')
+  //     .then((Response) => Response.json())
+  //     .then((data)=> console.log(data))
+  
+  //     const tampil = json.tampil;
+  //     let a = "";
+  //     for(i = 1; i < tampil.length; i++){
+  //         a = a + `<p> ${tampil[i]}</p>`
+  //     }
+  //     document.getElementById('satu').innerHTML = a;
+  // }
+  
+  
+  
+  // async function myFunction(){
+  //   const response = await
+  //   fetch('https://fakestoreapi.com/products?sort=desc', {
+  //   method : "GET"
+  // });
+  //   console.log(response);
+  //   const json = await response.json();
+  //   const results = json.results;
+  //   console.log(results);
+  //   let data = ''
+  //   for(i = 0; i < results.length; i++){
+  //     data = data +  `<p>${results[i].name}</p>`
+  //   }
+  //   document.getElementById("satu").innerHTML = data;
+  // }
+  
+  
+  
+  // async function myFunction(){
+  //     let result = await fetch
+  //     (' https://fakestoreapi.com/products?sort=desc',{})
+  //     .then(res => res.json())
+  //     .then(json => console.log(json[1].title))
+  
+  
+      // let data = ''
+      // for(i = 0; i < result.length; i++) {
+      //     data = data +  `<p>${result[i].title}</p>`
+      // }
+      // document.getElementById("satu").innerHTML = data;
+  // }
+  
+  // const options = {
+  // 	method: 'GET',
+  // 	headers: {
+  // 		'X-RapidAPI-Key': '95d1eacd65msh9f649eafc51e666p1947bbjsn21c587d7a633',
+  // 		'X-RapidAPI-Host': 'burgers1.p.rapidapi.com'
+  // 	}
+  // };
+  
+  // rumus
+  
+  // const tampil = document.getElementById('nama'); -->

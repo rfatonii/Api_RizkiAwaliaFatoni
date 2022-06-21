@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    /* background-color: rgb(241, 157, 0); */
+}
+
+.link-nav {
+    color: white;
+}
+
+.link-title {
+    text-decoration:none; 
+    color:black;
+}
+
+.link-title:hover {
+    color:rgb(212, 8, 8);
+}
